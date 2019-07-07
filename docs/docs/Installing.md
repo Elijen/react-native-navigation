@@ -31,6 +31,8 @@
 	#import <ReactNativeNavigation/ReactNativeNavigation.h>
 
 	@implementation AppDelegate
+	
+	@synthesize window = _window;
 
 	- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 	{
